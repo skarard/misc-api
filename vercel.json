@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/poll-keep",
+      "schedule": "0 0 * * *"
+    }
+  ],
+  "env": {
+    "KV_REST_API_URL": "@kv-rest-api-url",
+    "KV_REST_API_TOKEN": "@kv-rest-api-token"
+  }
+}
